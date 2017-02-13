@@ -46,7 +46,7 @@ void dfs(int y, int x) {
 
 int main() {
 	ios::sync_with_stdio(false);
-	
+
 	cin >> N >> M;
 	memset(arr, 0, sizeof(arr));
 	for (int i = 0; i < N; i++) {

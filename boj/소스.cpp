@@ -28,10 +28,11 @@ int main() {
 		for (int i = 0; i < K; i++) {
 			cin >> x >> y >> xx >> yy >> w;
 			arr[i] = s(x, y, xx, yy, w);
-			vx.push_back(x), vx.push_back(xx);
-			vy.push_back(y), vy.push_back(yy);
+			//vx.push_back(x), vx.push_back(xx);
+			//vy.push_back(y), vy.push_back(yy);
 		}
-		sort(vx.begin(), vx.end());
+		
+		/*sort(vx.begin(), vx.end());
 		sort(vy.begin(), vy.end());
 
 		int sz = vx.size();
@@ -41,7 +42,7 @@ int main() {
 		}
 
 		for (int i = 0; i < K; i++) {
-
-		}
+			
+		}*/
 	}
 }
